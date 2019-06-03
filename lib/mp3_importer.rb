@@ -7,7 +7,6 @@ class MP3Importer
   end
   
   def files
-   # binding.pry
     Dir.entries(path).select {|entry| entry.include?(".mp3")}
   end
 
